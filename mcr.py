@@ -27,7 +27,7 @@ def get_valid_move(board):
                 return move
         except ValueError:
             pass
-        print("Invalid move. Try again.")
+        print("Invalid move.")
 
 def main():
     board = [[' ' for _ in range(3)] for _ in range(3)]
